@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: antiquewhite;
+            border: 1px solid royalblue;
+            position: relative;
+        }
+        
+        header {
+            height: 150px;
+            width: 1089px;
+            background-color: hsl(73, 76%, 77%);
+            border-bottom: 1px solid royalblue;
+        }
+        
+        header p {
+            position: absolute;
+            top: 50px;
+            left: 200px;
+            font-size: 50px;
+            text-shadow: rgb(58, 27, 130) 10px 10px 10px;
+            color: rgb(227, 220, 219);
+        }
+        
+        header:hover>p {
+            color: rgb(68, 50, 205);
+        }
+        
+        nav {
+            height: 50px;
+            width: 1089px;
+            background-color: hsl(35, 5%, 47%);
+            border: 1px solid royalblue;
+        }
+        
+        .menu li {
+            float: left;
+            width: 160px;
+            height: 50px;
+            background-color: rebeccapurple;
+            line-height: 50px;
+            text-indent: 10px;
+            list-style: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: violet;
+        }
+        
+        .menu li:hover {
+            background-color: thistle;
+        }
+        
+        li:hover>a {
+            font-style: italic;
+            color: yellow;
+        }
+        
+        .menu li .sub-menu {
+            display: none;
+        }
+        
+        .menu li:hover>.sub-menu {
+            display: block;
+        }
+        
+        .content {
+            height: 450px;
+            width: 1089px;
+            background-color: rgb(147, 90, 16);
+            border-bottom: 1px solid royalblue;
+        }
+        
+        aside {
+            height: 450px;
+            width: 40%;
+            background-color: hsl(0, 73%, 49%);
+            border-bottom: 1px solid royalblue;
+        }
+        
+        section {
+            height: 150px;
+            width: 1089px;
+            background-color: hsl(54, 91%, 56%);
+            border-bottom: 1px solid royalblue;
+            float: left;
+        }
+        
+        footer {
+            height: 450px;
+            width: 800px;
+            background-color: hsl(102, 79%, 39%);
+            border-bottom: 1px solid royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="/img/images.jpg" alt="" srcset="" height="150" width="1089">
+            <p>GAME LIEN QUAN HOI QUAN</p>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">GAME TAG</a></li>
+                <li><a href="#">ABOUT</a></li>
+
+                <li><a href="#">HELP</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside></aside>
+            <section></section>
+        </div>
+    </div>
+</body>
+
+</html>
