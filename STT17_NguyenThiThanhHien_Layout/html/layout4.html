@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout4</title>
+    <style>
+        .wrapper {
+            height: 500px;
+            width: 900px;
+            background-color: rgb(132, 164, 224);
+            margin: auto;
+            padding: auto;
+            border: 3px solid black;
+        }
+        
+        .header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(132, 164, 224);
+            border-bottom: 3px solid black;
+        }
+        
+        .content {
+            height: 80%;
+            width: 100%;
+            background-color: rgb(132, 164, 224);
+            border-bottom: 3px solid black;
+            display: flex;
+        }
+        
+        .nav {
+            height: 100%;
+            width: 350px;
+            background-color: rgb(132, 164, 224);
+            border-right: 3px solid black;
+            float: left;
+        }
+        
+        .section {
+            height: 100%;
+            width: 70%;
+            background-color: rgb(132, 164, 224);
+            border-left: 3px solid black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .article {
+            height: 350px;
+            width: 550px;
+            background-color: bisque;
+            border: 3px solid black;
+            margin: auto;
+            position: relative;
+        }
+        
+        .footer {
+            height: 7%;
+            width: 100%;
+            background-color: rgb(132, 164, 224);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <header>header</header>
+        </div>
+        <div class="content">
+            <div class="nav">
+                <nav>nav</nav>
+            </div>
+            <div class="section">
+                <div class="article"></div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <footer>footer</footer>
+        </div>
+    </div>
+</body>
+
+</html>

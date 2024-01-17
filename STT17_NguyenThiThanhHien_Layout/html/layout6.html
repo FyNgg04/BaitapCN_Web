@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout6</title>
+    <style>
+        .wrapper {
+            background-color: rgb(255 228 153);
+            margin: 0 auto;
+            width: 600px;
+            border: 1px solid black;
+        }
+        
+        .header {
+            height: 30px;
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+        
+        .nav {
+            height: 30px;
+            border-bottom: 1px solid black;
+        }
+        
+        .section {
+            height: 250px;
+            width: 70%;
+            float: left;
+            border-right: 1px solid black;
+        }
+        
+        .article {}
+        
+        .article1 {
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: rgb(255 241 204);
+            height: 100px;
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+            border-top: 1px solid rgb(160 152 145);
+        }
+        
+        .article2 {
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: rgb(250 227 212);
+            height: 100px;
+            border: 1px solid rgb(160 152 145);
+        }
+        
+        .aside {
+            height: 100%;
+            width: 20%;
+            float: left;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .footer {
+            border-top: 1px solid black;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">header</div>
+        <div class="container">
+            <div class="nav">
+                nav
+            </div>
+            <div class="section">
+                section
+                <div class="artical">
+                    <div class="article1">
+                        artical
+                    </div>
+                    <div class="article2">
+                        artical
+                    </div>
+                </div>
+            </div>
+            <div class="aside">
+                aside
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>
