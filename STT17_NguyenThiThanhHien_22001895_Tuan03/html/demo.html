@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: aliceblue;
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 30px;
+            left: 300px;
+        }
+        
+        header h2 {
+            position: absolute;
+            top: 70px;
+            left: 400px;
+            color: blue;
+            text-shadow: chartreuse 10px 5px 10px;
+            <!-- màu loan dưới-->
+        }
+        
+        nav {
+            position: relative;
+            display: inline;
+            margin-left: 50px;
+        }
+        
+        .menu li {
+            display: inline;
+            float: left;
+            height: 50px;
+            width: 150px;
+            background-color: cyan;
+            list-style-type: none;
+            text-indent: 20px;
+            border: 2px solid royalblue;
+            border-radius: 10px 10px 10px 0px;
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+        
+        .menu li:nth-child(5) {
+            top: 30px;
+            right: 50px;
+            <!--line-height: 50px;
+            -->text-indent: 20px;
+        }
+        
+        .menu li:nth-child(4) {
+            top: 30px;
+            right: 210px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(3) {
+            top: 30px;
+            right: 370px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(2) {
+            top: 30px;
+            right: 530px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(1) {
+            top: 60px;
+            right: 720px;
+            line-height: 50px;
+            transform: rotate(20deg);
+            text-indent: 20px;
+        }
+        
+        .menu li:hover {
+            background-color: salmon;
+        }
+        
+        li a {
+            font-weight: bold;
+            color: slateblue;
+        }
+        
+        li :hover a {
+            font-weight: bold;
+            color: rgb(205, 90, 180);
+        }
+        
+        form #txtEmail {
+            width: 100px;
+            margin-left: 10px;
+        }
+        
+        button {
+            position: relative;
+            top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../picture/istockphoto-1030262538-1024x1024.jpg" alt="" height="150px" width="1089px">
+            <h1>TRUONG DAI HOC CONG NGHIEP TP.HCM</h1>
+            <h2>KHOA CONG NGHE THONG TIN</h2>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">ITEM1</a>
+                </li>
+                <li>
+                    <a href="#">ITEM2</a>
+                </li>
+                <li>
+                    <a href="#">ITEM3</a>
+                </li>
+                <li>
+                    <a href="#">ITEM4</a>
+                </li>
+                <li>
+                    <a href="#">ITEM5</a>
+                    <form action="" method="post">
+                        <input type="email" name="txtEmail" id="txtEmail">
+                        <button type="submit">GO</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
