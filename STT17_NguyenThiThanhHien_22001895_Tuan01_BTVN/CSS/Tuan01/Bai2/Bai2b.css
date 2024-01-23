@@ -1,0 +1,6 @@
+body {
+    margin: 100px;
+    border-style: groove;
+    border-color: hsl(0, 0%, 5%);
+    padding: 10px;
+}

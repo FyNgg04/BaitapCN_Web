@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+header {
+    background-color: hsl(16, 75%, 78%);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+}
+
+section {
+    width: 100%;
+    padding: 100px;
+    background-color: hsl(16, 75%, 78%);
+    border: 1px solid #0b0b0b;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: hsl(16, 75%, 78%);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+}
