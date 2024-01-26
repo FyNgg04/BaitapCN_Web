@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../../anh/Bai3/background.jpg");
+}
+
+.wrapper {
+    /* border: 1px solid white; */
+    width: 500px;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    /* border: 1px solid; */
+    width: 800px;
+    height: 90%;
+    background-color: white;
+}
+
+header {
+    height: 20%;
+    /* border-bottom: 1px solid; */
+    padding: 30px;
+    background-image: url(../../Picture/Bai01/Bai2/background.png);
+    color: white;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+.main {
+    /* border: 1px solid; */
+    width: 800px;
+    height: 75%;
+}
+
+nav {
+    /* border: 1px solid; */
+    height: 10%;
+    background-color: rgb(183, 183, 183);
+}
+
+section {
+    border-right: 1px solid rgb(183, 183, 183);
+    width: 65%;
+    height: 90%;
+    float: left;
+}
+
+article {
+    /* border: 1px solid; */
+    width: 90%;
+    height: 40%;
+    margin: 20px;
+    /* margin-left: 10px; */
+}
+
+aside {
+    width: 35%;
+    float: left;
+}
+
+footer {
+    height: 5%;
+    /* border: 1px solid; */
+}
+
+.contact {
+    /* border: 1px solid; */
+    width: 50%;
+    margin-top: 40px;
+}
+
+img {
+    height: 60px;
+    width: 50px;
+    float: left;
+}
+
+nav ul {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+article img {
+    width: 200px;
+    height: 147px;
+}
+
+.txt {
+    padding-left: 220px;
+}
+
+article p,
+h4 {
+    margin-top: 10px;
+}
+
+aside ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+aside h3 {
+    margin: 10px;
+}
+
+aside ul li {
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid red;
+    width: 200px;
+}
+
+.contact p {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 10px 20px;
+    font-size: 20%;
+    background-color: rgb(183, 183, 183);
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+header h2,
+h4 {
+    padding-left: 60px;
+}
+
+h3,
+h5 {
+    color: red;
+}
