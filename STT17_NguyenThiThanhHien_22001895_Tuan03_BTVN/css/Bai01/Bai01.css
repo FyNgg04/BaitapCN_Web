@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: lightskyblue;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    border-bottom: 5px dotted white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.menu li a:hover {
+    color: black;
+}
+
+#logo {
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 8px blue;
+}
+
+footer {
+    height: 10%;
+    border-top: 5px dotted white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+main {
+    height: 80%;
+}
+
+aside {
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+
+.txt {
+    color: white;
+    margin: 20px 10px;
+}
+
+.txt p {
+    margin-top: 30px;
+}
+
+table {
+    margin: 50px 110px;
+    color: white;
+    text-align: left;
+}
+
+th {
+    width: 200px;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+input,
+select,
+textarea {
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+button {
+    padding: 2px;
+    border: 1px dashed blue;
+}
+
+section {
+    height: 100%;
+    float: left;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+}
+
+.left {
+    margin-top: -100px;
+}
+
+.txt2 {
+    padding-top: 20px;
+    padding-left: 100px;
+    color: blue;
+}
+
+.txt2 h1 {
+    text-shadow: 1px 3px 1px;
+}

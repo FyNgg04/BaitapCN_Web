@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 22, 68);
+}
+
+nav {
+    background-color: rgb(25, 22, 68);
+    height: 10%;
+}
+
+main {
+    height: 75%;
+}
+
+aside {
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+
+aside h2 {
+    margin: 30px 10px;
+    border-bottom: 5px dotted;
+    height: 40px;
+}
+
+.left {
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+}
+
+.right {
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.right h1,
+p {
+    padding: 20px 0px;
+}
+
+.right h1 {
+    border-bottom: 4px dotted black;
+}
+
+table {
+    width: 100%;
+}
+
+table input,
+textarea {
+    color: black;
+    background-color: #f1f1f1;
+    margin: 5;
+}
+
+table button {
+    padding: 5px;
+    margin: 2px 5px;
+}
+
+.left p {
+    padding: 0;
+}
+
+.left p {
+    padding-bottom: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px greenyellow;
+}
+
+section {
+    height: 100%;
+    width: 30%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(25, 22, 68);
+    height: 5%;
+    display: flex;
+    align-items: center;
+}
+
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px;
+}
+
+ul.menu li:nth-child(4) {
+    width: 150px;
+}
+
+.txtlogo {
+    padding-left: 100px;
+    margin-top: 25px;
+    color: white;
+    width: 400px;
+}
+
+ul.menu li {
+    margin-top: 23px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    width: 100px;
+}
+
+ul.menu li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul.menu li {
+    background-color: darkcyan;
+}
+
+ul.menu li:hover {
+    background-color: rgb(0, 139, 53);
+}
+
+.input {
+    margin: 20px;
+}
+
+input {
+    color: white;
+    background-color: darkblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.img1 {
+    height: 100px;
+    width: 90px;
+    float: left;
+}
+
+.logo {
+    margin: 20px;
+    padding-top: 90px;
+}
+
+.img2 {
+    padding-top: 40px;
+    width: 300px;
+}
+
+.main {
+    border: 1px solid black;
+    width: 80%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.main h1,
+p {
+    padding: 40px 0px 0px 0px;
+}
+
+.main h1 {
+    margin-top: -30px;
+    padding-bottom: 20px;
+    border-bottom: 5px dotted;
+}
+
+.readmore {
+    display: flex;
+    justify-content: end;
+}
+
+.readmore a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span:nth-child(1) {
+    color: white;
+}
+
+span:nth-child(2) {
+    color: lightblue;
+}
